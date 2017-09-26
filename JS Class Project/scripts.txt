@@ -1,0 +1,69 @@
+
+/* 
+Create buttons in an html file - the buttons should be 200 x 200, grey in color, text is white, make the font size larger.
+
+They may line up on top of each other.
+
+
+Grab the elements you need, you may do it all at the top or in each of your exercises 
+we need buttons, paragraphs... 
+or you may do it as you hit your exercises
+*/
+
+
+
+/* 
+Button 1:
+Place a paragraph under the first button; create a function for changing a paragraph to a different color - what attribute have we been using 
+to change colors?  
+Use your attribute methods.
+You need to create something in the css too - what is it?
+
+You need to grab the button, grab the paragraph - by WHAT attribute???
+
+Then we create the function 
+Use the event handler for this button  
+
+*/
+
+
+
+
+/* 
+Button 2:
+Create JSON notation for three restaurants: Wendy's, Moes, and Chic-Fil-A (in that order)
+In the JSON refer to their full name, your favorite item from that restaraurant and the calories 
+Your JSON should be one object with three objects inside.
+ 
+Create a function that when the second button is clicked the Chick-Fil-A information 
+will show up under the button.  Formatted nicely like the instructor's project...
+Use the listener for this button
+*/
+
+
+/* 
+Button 3:
+Create a simple array of city names: Raleigh, Washington D.C., Miami, Columbia, and Atlanta - in that order
+inside of an object (you must name the array)
+
+When someone clicks the third button, loop through all of the names and display them one by one in a pop up
+when the loop gets to Columbia, pop up "is Famously HOT!" next to Columbia, and Go Falcons next to Atlanta
+
+You may choose your own way to make the function call
+
+ */
+
+/*
+Create a small form at the bottom.  Use the proper fields (do not use a "button" but make it look like the other buttons).
+Label the button "Spaghetti?"  
+If a user enters in the word Spaghetti into the field
+ - a paragraph shows under the final box that says "That's my dog's name too!"
+Stop the submit no matter what the user enters.
+
+
+Try to Convert any of the functions into a method and update the function call with the method name.  
+Do this VERY last - make the functions work first
+
+
+ */
+

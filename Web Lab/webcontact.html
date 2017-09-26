@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is the contact us page of Adventures Insurance. Contact Adventures Insurance for unique insurance specifically designed for carnivals, zoos, circuses, amusement parks and fairs. 
+    Contact Adventures Insurance by email or phone with your questions." />
+
+    <title>Adventures Insurance Contact Page</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+
+    <section class="darkbackground">
+
+        <header>
+            <img src="images/logo.png" class="logo" alt="This is Adventures Insurance logo." title="Adventures Insurance logo" />
+
+            <br />
+
+            <img src="images/pettingzoo.jpg" class="logobackground" alt="This is a diagram of a petting zoo and its exhibits." title="Petting Zoo" />
+
+            <br />
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+    </section>
+
+    <section class="middle">
+
+        <div class="middlediv">
+
+            <article class="formcontainer">
+                <h1>Contact Adventures Insurance</h1>
+
+
+                <form action="http://severien.com/grit/formecho.php" method="post" id="contactform">
+                    <div class="flexcontainer">
+
+                        <label for="first" class="labelspace">First Name:</label>
+                        <input class="formfn" type="text" id="firstn" name="firstname" maxlength="20" required="required" placeholder="First Name" autofocus="autofocus" />
+
+                        <label for="last" class="labelspace">Last Name:</label>
+                        <input type="text" id="last" name="lastname" maxlength="20" required="required" placeholder="Last Name" />
+
+                    </div>
+
+                    <div class="flexcontainer">
+                        <label for="email" class="labelspaceem">Email:</label>
+                        <input class="formemail" type="email" id="email" name="emailaddress" maxlength="40" required="required" placeholder="Email Address" />
+
+                        <label for="phonenumber" class="labelspaceph">Phone #:</label>
+                        <input type="text" id="phone" name="phonenumber" maxlength="10" title="Example 8001232255" pattern="[0-9]{10}" />
+
+                    </div>
+
+
+                    <label>
+                        Contact me by email:
+                            <input type="checkbox" name="contactemail" value="email" id="emailcontact" />
+                    </label>
+
+                    <label class="phonecheck">
+                        Contact me by phone:
+                             <input type="checkbox" name="contactphone" value="phone" id="phonecontact" />
+                    </label>
+
+                    <br />
+                    <br />
+
+                    <label for="comments" class="formcenter">Comments:</label>
+                    <textarea id="commentsid" name="contactcomments" rows="6" cols="50">Comments</textarea>
+
+                    <br />
+
+                    <button type="submit" value="submit" class="formsubmitbutton" id="submitbutton">Submit</button>
+
+                </form>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="darkbackground">
+
+        <footer>
+
+            <p class="below">
+                Copyright
+                <script type="text/javascript">document.write(new Date().getFullYear());</script>
+                &copy Adventures Insurance
+            </p>
+            <img src="images/facebookgray.png" alt="This is Adventures Insurance's facebook icon." class="facebook" />
+
+        </footer>
+
+    </section>
+
+
+    <script src="js/contactscript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>JavaScript Final Project</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<!-- create a style sheet, place it into the subdirectory of css and link to the file -->
+	<!-- link in your javascript file in the correct place, use the text file as your directions for the javascript file -->
+
+</head>
+<body>
+
+<!-- 1. Create a button with the class of buttonclass - use this class in your css to style the button, and create a paragraph that contains some text (write whatever text you'd like!), 
+    so that the text within a paragraph turns a different color when you click the button.
+    Remember you need code in the stylesheet and js files -->
+
+    <button type="button" id="buttonone" class="buttonclass">Turn the text</button>
+    <p id="changecolor" style="color:black;">When you click the button, I turn pink!</p>
+
+
+<br />
+<!-- Create a button with the class of buttonclass that when clicked will show the information for Chick-Fil-A using your JSON - 
+    directions for the JSON restaurants are in the js file -->
+    <button type="button" id="buttontwo" class="buttonclass">Show me Chic-Fil-A</button>
+
+    <div id="fastfoodinfo"></div>
+
+
+<br />
+<!-- Create a button with the class of buttonclass that loops through an array of city names, when the loop hits Columbia, instead of 
+    simply displaying  Columbia, 
+the message should read Columbia is Famously HOT!  -->
+
+    <button type="button" id="buttonthree" class="buttonclass">City Names</button>
+
+<br />
+    
+      <form action=" http://www.severien.com/grit/formecho.php" method="post" id="dognameform">
+          <input type="submit" value="Spaghetti" id="buttonfour" class="buttonclass" /> 
+          <input type="text" name="dogsname" id="dogsname" class="field" required="required"/>
+      </form>
+   
+     <div id="nametext"></div>
+
+
+
+ <script src="js/script.js"></script> 
+</body>
+</html>

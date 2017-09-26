@@ -1,0 +1,36 @@
+﻿body
+{
+    width: 1000px;
+    font-size: 15px;
+}
+
+button
+{
+width: 100px;
+height: 100px;
+background-color: grey;
+color: white;
+font-size: 1.2em;
+margin-top: 20px;
+margin-bottom: 20px;
+border: 2px solid hotpink;
+box-shadow: 2px 2px lightgrey;
+}
+
+#buttonfour
+{
+width: 100px;
+height: 100px;
+background-color: grey;
+color: white;
+font-size: 1.2em;
+margin-top: 20px;
+margin-bottom: 20px;
+border: 2px solid hotpink;
+box-shadow: 2px 2px lightgrey;
+}
+
+div
+{
+display: inline-block;
+}

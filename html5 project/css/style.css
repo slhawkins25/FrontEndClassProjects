@@ -1,0 +1,85 @@
+/* CSS Document */
+* {margin:0; padding:0;	font-size:100%;}
+
+body {text-align:center;}
+
+img {vertical-align:top;}
+
+section {width:800px; margin:0 auto; text-align:left;}
+
+header {height:291px;}
+
+footer {margin:0 auto; text-align:center;}
+
+html {font-family:Arial, Helvetica, sans-serif; font-size:0.75em; line-height:1.5em; color:#686565;}
+
+/* create a rule using an ID selector on the div for content - use a width of 75% */
+
+article
+    {
+    width:75%;
+     }
+
+
+
+/* create a rule for the logo class with padding on the top and bottom of 8 pixels, and the right and left of 0 pixels,
+make sure the width is 100% */
+
+.logo {padding:8px 0 4px; width:100%; }
+
+
+/***************content***************/
+
+ p {padding-bottom:14px;}
+
+/* explain here in a comment what em means to the font-size */
+
+/* em will take the "regular font" and multiply whatever that size is by the number in front - here it is 2.67 times the regular font */
+
+h1 {color:#0B275A; font-size:2.167em; font-weight:normal; padding-bottom:30px;}
+form
+{
+    clear: both;
+    margin-top:30px;
+    padding-top:30px;
+}
+.submitbutton
+{
+    color: white;
+    background-color: #0B275A;
+    width: auto;
+    padding:3px;
+    border-radius:20%;
+}
+figcaption
+{
+    margin-left:40px;
+    font-variant:small-caps;
+    color:#0B275A;
+}
+figure
+{
+    width:400px;
+    float:left;
+
+}
+
+input[type="text"]
+{
+    height:20px;
+    width:180px;
+}
+
+table
+{
+    width:300px;
+    
+}
+td
+{
+    font-size:15px;
+    padding-bottom:10px;
+}
+    
+    /***************footer***************/
+footer {background:#E4ECFA; border-top:1px solid #071C44; height:57px; padding-top:10px; padding-bottom:10px; color:#092557;}

@@ -1,0 +1,89 @@
+body 
+{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+}
+
+button 
+{
+font-family: 'Titillium Web', sans-serif;
+}
+
+.wrapper 
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+.float 
+{
+    float: right;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 600px; 
+          
+}
+
+
+#textforjupiter 
+{
+   
+    margin-bottom: 50px;
+          
+}
+
+#sun 
+{
+width: 200px;
+height: 200px;
+background-color: yellow;
+border: 3px solid yellow;
+border-radius: 50%;
+margin-left: 50px;
+font-size: .5em;
+color: grey;
+cursor: pointer;
+}
+
+#mercury
+{
+width: 75px;
+height: 75px;
+background-color: red;
+border: 1px solid red;
+border-radius: 50%;
+position: absolute;
+top: 250px;
+left: 350px; 
+cursor: pointer;
+
+}
+
+#jupiter 
+{
+width: 300px;
+height: 300px;
+background-color: purple;
+border: 3px solid purple;
+border-radius: 50%;
+color: white;
+font-size: 1em;
+font-weight: bold;
+cursor: pointer;
+display: block;
+
+}
+
+
+#sunparagraph
+{
+font-size: .5em;
+width: 200px;
+margin-left: 70px;
+margin-top: 50px;
+display: inline-block;
+}
+
+
+

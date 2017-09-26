@@ -1,0 +1,384 @@
+﻿body
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+    background-color: #FEFEEE;
+}
+
+img
+{
+    border: none;
+}
+
+@font-face
+{
+    font-family: AdventuresTitles;
+    src: url(../font/ARTIM.woff) format('woff');
+}
+
+.darkbackground
+{
+    background-image: url(../images/body_bg.gif);
+    background-position: center;
+}
+
+header
+{
+    background-image: url(../images/top_bg1.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 475px;
+    width: 800px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.logo
+{
+    margin-left: 153px;
+}
+
+img.logobackground
+{
+    margin-left: 19px;
+}
+
+
+nav ul
+{
+    list-style: none;
+    margin: 0 auto;
+    
+}
+
+    nav ul li
+    {
+        display: inline-block;
+        text-align: center;
+        margin-right: 75px;
+        
+    }
+
+        nav ul li a
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            line-height: 300%;
+        }
+
+a:hover
+{
+    font-style: italic;
+}
+
+.middle
+{
+    background-color: #FEFEEE;
+}
+
+.middlediv
+{
+    background-color: #FEFEEE;
+    height: 450px;
+    width: 800px;
+    margin: 40px auto;
+}
+
+article
+{
+    width: 350px;
+}
+
+.articleleft
+{
+    float: left;
+    border-right: 1px solid black;
+}
+
+.articleright
+{
+    float: right;
+}
+
+h1
+{
+    color: #601d15;
+}
+
+.pleft
+{
+    text-align: left;
+    margin-right: 20px;
+    width: 250px;
+}
+
+.pright
+{
+    text-align: left;
+    width: 250px;
+}
+
+#linesofbusiness
+{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+footer
+{
+    background-image: url(../images/top_bg1.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.below
+{
+    margin: 0 25px;
+    color: white;
+    height: 50px;
+    padding-top: 15px;
+    float: left;
+}
+
+.facebook
+{
+    float: right;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 15px;
+}
+
+/* Form styling starts here*/
+
+label
+{
+    font-family: Tahoma;
+    color: rgb(111,35,28);
+    font-weight: 700;
+    font-size: .9em;
+}
+
+.formcontainer
+{
+    height: 450px;
+    width: 600px;
+    margin: 40px auto;
+}
+
+.flexcontainer
+{
+    display: inline-flexbox;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.formfn
+{
+    margin-right: 50px;
+}
+
+.formemail
+{
+    margin-right: 45px;
+}
+
+.labelspace
+{
+    margin-right: 10px;
+}
+
+.labelspaceph
+{
+    margin-right: 27px;
+}
+
+.labelspaceem
+{
+    margin-right: 50px;
+}
+
+.phonecheck
+{
+    padding-left: 60px;
+}
+
+.formcenter
+{
+    margin-right: 50px;
+    position: relative;
+    top: -40px;
+}
+
+.formsubmitbutton
+{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(111,35,28);
+    color: #FEFEEE;
+    border-radius: 5px;
+    box-shadow: lightgrey 3px 3px;
+    font-family: Tahoma;
+    font-size: .9em;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+/* Form styling ends here */
+
+/*About Page styling starts here*/
+
+nav ul li a.blue
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 250%;
+}
+
+a.blue
+{
+    transition: font-size .25s;
+}
+
+    a.blue:hover
+    {
+        color: #1886B9;
+        font-style: normal;
+        font-size: 130%;
+    }
+
+
+
+.bluecoaster
+{
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 4px #c3c3c3;
+    transform: rotate(-4deg);
+    transition-property: transform;
+    transition-duration: .5s;
+}
+
+img.bluecoaster:hover
+{
+    transform: skewX(-15deg) skewY(15deg);
+}
+
+.aboutpara
+{
+    margin-bottom: 125px;
+}
+
+.aboutheading
+{
+    font-family: AdventuresTitles;
+}
+
+.aboutsubheading
+{
+    font-family: AdventuresTitles;
+}
+
+@media screen and (max-width:900px)
+{
+    img.logo
+    {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    img.logobackground
+    {
+        display: none;
+    }
+
+    header
+    {
+        max-width: 400px;
+        height: 270px;
+    }
+
+    nav ul li
+    {
+        width: 80%;
+        display: block;
+        padding: 0;
+        line-height: 100%;
+        margin-top: -20px;
+        margin-bottom: -20px;
+        text-align: center;
+    }
+
+    .middlediv
+    {
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+        overflow: auto;
+    }
+
+    .bluecoaster
+    {
+        width: 50%;
+    }
+
+    .aboutpara
+    {
+        margin-bottom: 25px;
+    }
+
+    .aboutheading
+    {
+        font-family: AdventuresTitles;
+        font-size: 1.5em;
+    }
+
+    .aboutsubheading
+    {
+        font-family: AdventuresTitles;
+        font-size: 1.2em;
+    }
+
+    footer
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px)
+{
+    img.logo
+    {
+        width: 200px;
+        margin: 0 auto;
+        margin-left: 40px;
+    }
+
+    header
+    {
+        max-width: 300px;
+        height: 250px;
+        background-image: none;
+        margin: 0 auto;
+    }
+
+    .bluecoaster
+    {
+        width: 60%;
+    }
+}
